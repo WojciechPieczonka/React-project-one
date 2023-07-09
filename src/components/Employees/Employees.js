@@ -1,5 +1,4 @@
 import "./Employees.css";
-import Worker from "../Worker/Worker";
 
 const Employees = () => {
   return (
