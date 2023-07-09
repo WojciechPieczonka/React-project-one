@@ -9,7 +9,11 @@ const Footer = () => {
         <p>Nazawa firmy - wszelkie prawa zastrzeżone, 2023</p>
         <ul className="icons-list">
           <li>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
@@ -17,6 +21,7 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/"
               target="_blank"
+              rel="noopener noreferrer"
               className="fb-icon"
             >
               <FontAwesomeIcon icon={faFacebook} />
