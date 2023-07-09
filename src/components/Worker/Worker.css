@@ -1,0 +1,42 @@
+.worker:nth-of-type(odd) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+.worker:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 5%;
+  text-align: right;
+}
+.worker-photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 230px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.worker:nth-of-type(1) .worker-photo {
+  background-image: url(C:\Users\Wojciech\Desktop\FC\react-projekt-1\react-project-1\src\assets\worker1.jpg);
+  margin-right: 5%;
+}
+.worker:nth-of-type(2) .worker-photo {
+  background-image: url(C:\Users\Wojciech\Desktop\FC\react-projekt-1\react-project-1\src\assets\worker2.jpg);
+  margin-left: 5%;
+}
+.worker-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.worker-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 5% 0;
+}

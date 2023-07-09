@@ -1,0 +1,16 @@
+.service {
+  width: 200px;
+  height: 200px;
+  background-color: #f1f1f1;
+  color: #000000;
+  margin: 3% 3% 0% 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  position: relative;
+  cursor: pointer;
+}

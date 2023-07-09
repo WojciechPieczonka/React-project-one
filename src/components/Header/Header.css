@@ -1,0 +1,39 @@
+.header {
+  color: #ffffff;
+  background-image: url(C:\Users\Wojciech\Desktop\FC\react-projekt-1\react-project-1\src\assets\section_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 50px);
+}
+.header-h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 10px;
+  width: 600px;
+}
+.header-p {
+  padding: 40px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.shadow {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.shadow .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+}
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  border: 3px solid #ffffff;
+  padding: 14px 58px;
+  transition: 1s;
+  width: fit-content;
+}

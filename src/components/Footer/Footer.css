@@ -1,0 +1,20 @@
+.footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  width: 100%;
+  height: 71px;
+  background-color: #4e4e4e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.fb-icon {
+  margin-left: 20px;
+}
