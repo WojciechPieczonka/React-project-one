@@ -1,5 +1,6 @@
 import "./Services.css";
 import ServiceItem from "../ServiceItem/ServiceItem";
+
 const offers = [
   {
     name: "Usługa 1",

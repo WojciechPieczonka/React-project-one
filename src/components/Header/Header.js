@@ -5,10 +5,12 @@ const Header = () => {
     <header className="header">
       <div className="shadow">
         <div className="container">
-          <h1 className="header-h1">
+          <h1 className="company-name-heading">
             Nasza firma oferuje najwyższej jakości produkty.
           </h1>
-          <p className="header-p">Nie wierz nam na słowo - sprawdź</p>
+          <p className="company-name-description">
+            Nie wierz nam na słowo - sprawdź
+          </p>
           <a href="#services" className="button">
             oferta
           </a>
@@ -17,4 +19,5 @@ const Header = () => {
     </header>
   );
 };
+
 export default Header;

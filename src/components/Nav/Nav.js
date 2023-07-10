@@ -15,14 +15,12 @@ const Nav = () => {
             <a href="#services">Oferta</a>
           </li>
           <li className="link-contact">
-            {/* eslint-disable jsx-a11y/anchor-is-valid */}
-            <a href="#" className="disabled">
-              Kontakt
-            </a>
+            <div className="disabled">Kontakt</div>
           </li>
         </ul>
       </div>
     </nav>
   );
 };
+
 export default Nav;

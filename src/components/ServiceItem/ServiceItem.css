@@ -14,3 +14,9 @@
   position: relative;
   cursor: pointer;
 }
+.dot {
+  background: #e07a64;
+  height: 25px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

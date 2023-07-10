@@ -5,14 +5,14 @@
   background-repeat: no-repeat;
   height: calc(100vh - 50px);
 }
-.header-h1 {
+.company-name-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 10px;
   width: 600px;
 }
-.header-p {
+.company-name-description {
   padding: 40px 0;
   font-weight: 700;
   font-size: 18px;
