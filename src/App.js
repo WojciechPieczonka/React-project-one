@@ -6,7 +6,7 @@ import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Services from "./components/Services/Services";
 
-function App() {
+const App = () => {
   return (
     <>
       <Nav></Nav>
@@ -16,6 +16,6 @@ function App() {
       <Footer></Footer>
     </>
   );
-}
+};
 
 export default App;
